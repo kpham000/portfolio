@@ -1,31 +1,43 @@
 body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    color: ivory;
+    color: white;
+    font-family: 'Zen Antique', serif;
 }
 
-#navbar {
-    background-color: lavenderblush; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    /* top: -50px; Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    /* transition: top 0.3s; Transition effect when sliding down (and up) */
-}
-
-  /* Style the navbar links */
-#navbar a {
-    float: left;
-    flex-direction: row-reverse;
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+.navbar {
+    font-family: 'Zen Antique', serif;
+    background-color: #f2ede9;
+    overflow: hidden;
+    list-style-type: none;
 }
   
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
+.navbar a {
+    float: right;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: #8b7c6c;
+    color: white;
+}
+  
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+#name {
+    float: left;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .avatar {
@@ -34,6 +46,44 @@ body {
     height: 50px;
     border-radius: 50%;
 }
+
+#thirsty:hover {
+    opacity: 1.0;
+}
+
+#thirsty {
+    width:98.5%;
+    height: auto;
+    border: solid ivory 10px;
+    opacity: 0.5;
+    min-width: 600px;
+}
+
+#potluck:hover {
+    opacity: 1.0;
+}
+
+#potluck {
+    width:98.5%;
+    height: auto;
+    border: solid ivory 10px;
+    opacity: 0.5;
+    min-width: 600px;
+}
+
+#passgen:hover {
+    opacity: 1.0;
+}
+
+#passgen {
+    width:98.5%;
+    height: auto;
+    border: solid ivory 10px;
+    opacity: 0.5;
+    min-width: 600px;
+}
+
+
 
 
 
