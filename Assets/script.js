@@ -9,3 +9,15 @@
 //     document.getElementById("navbar").style.top = "-50px";
 //   }
 // }
+
+const express = require("express");
+const app = express();
+let port = process.env.PORT || 3302;
+
+app.get("/", (req, res) => {
+    res.send("Hello");
+});
+
+app.listen(port, () => {
+    console.log("Listening on PORT");
+});
