@@ -19,6 +19,7 @@ body {
     padding: 25px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Zen Antique', serif;
 }
   
 .navbar a:hover {
@@ -29,6 +30,17 @@ body {
 .navbar a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: ivory;
+    text-decoration: underline;   
+	text-decoration-color: ivory;
+}
+
+.p-title {
+    font-size: 20px;
 }
 
 #name {
@@ -71,11 +83,11 @@ body {
     min-width: 600px;
 }
 
-#passgen:hover {
+#weather-dash:hover {
     opacity: 1.0;
 }
 
-#passgen {
+#weather-dash {
     width:90%;
     height: auto;
     border: solid ivory 10px;
